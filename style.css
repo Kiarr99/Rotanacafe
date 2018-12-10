@@ -12,8 +12,17 @@ ul {
 }
 
 li {
-    float: center;
 
+    display: inline-block;
+    margin: 0 auto;
+
+
+}
+ul#horizontal-list
+{
+  min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
 }
 
 li a {
