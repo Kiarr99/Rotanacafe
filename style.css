@@ -1,4 +1,4 @@
-ul {
+ul .menu item {
     display: flex;
     justify-content: space-between;
     margin-left: 400px;
@@ -12,5 +12,5 @@ li a {
 }
 
 a:hover {
-  opacity: 0.5;
+  opacity: 0.75;
 }
