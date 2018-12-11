@@ -1,25 +1,16 @@
-body {
-  background: white;
-  font-family: 'Verdana', Verdana;
-}
-
 ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
-}
-
-li {
-    float: center;
-
 }
 
 li a {
-    display: grid;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  opacity: 0.5;
 }
