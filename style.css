@@ -1,4 +1,4 @@
-ul .menu item {
+.menu {
     display: flex;
     justify-content: space-between;
     margin-left: 400px;
@@ -6,7 +6,7 @@ ul .menu item {
     list-style-type: none;
 }
 
-li a {
+.menu_item {
   text-decoration: none;
   color: black;
 }
