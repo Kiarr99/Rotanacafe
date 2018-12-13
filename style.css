@@ -1,34 +1,16 @@
-body {
-  background: white;
-  font-family: 'Verdana', Verdana;
-}
-
-ul {
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: white;
 }
 
-li {
-
-    display: inline-block;
-    margin: 0 auto;
-
-
-}
-ul#horizontal-list
-{
-  min-width: 696px;
-	list-style: none;
-	padding-top: 20px;
+.menu_item {
+  text-decoration: none;
+  color: black;
 }
 
-li a {
-    display: grid;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+a:hover {
+  opacity: 0.75;
 }
