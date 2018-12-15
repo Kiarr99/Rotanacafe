@@ -13,6 +13,11 @@
 #navbar ul {
 	margin-top:0;
 	height:65px;
+	flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid #bbb;
 }
 
 #navbar ul li {
@@ -26,13 +31,14 @@
 }
 
 #navbar a {
+
 	color:black;
 	font-size:20px;
-  font-size: 4vw
+
 	font-family: Montserrat;
-	margin:1% 10% 0%;
+	margin:1px 26px 0px;
 	float:left;
-	padding:0% 2% 0%;
+	padding: 0px 4px 0px;
 	text-decoration: none;
 }
 
